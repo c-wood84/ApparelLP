@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+}
+
+#main_holder {
+  width: 1062px;
+  background: #fff;
+  margin: 0 auto;
+}
+
+#mainArea {
+  height: auto;
+  width: 960px;
+  margin: 0 auto;
+  padding: 0 0 20px 0;
+}
+
+#fashionWrap {
+  width: 960px;
+}
+
+#dgFashion-Head {
+  height: 79px;
+  padding-bottom: 4px;
+  /* border-bottom: 1px solid #ebe8e8;*/
+}
+
+#fashion-nav-container {
+  width: 960px;
+  padding: 10px 0;
+  height: 43px;
+}
+
+#fashion-nav-container ul {
+  width: 800px;
+  margin: 0 auto;
+  height: 35px;
+}
+
+#fashion-nav-container li {
+  display: inline-block;
+  padding: 8px 35px;
+  margin: 0 5px;
+  float: left;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: helvetica, arial;
+}
+
+#fashion-nav {
+  width: 800px;
+  margin: 0 auto;
+  height: 35px;
+}
+
+#fashion-nav li a {
+  display: inline-block;
+  padding: 8px 35px;
+  margin: 0 5px;
+  float: left;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: helvetica, arial;
+  font-size: 15px;
+}
+
+#fashionSliderTop {
+  width: 961px;
+  height: 451px;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.tabContainer li a {
+  color: #000;
+  cursor: pointer;
+  display: block;
+  padding: 0 0px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.tabContainer a.active {
+  color: #000;
+  font-weight: bold;
+  padding-bottom: 5px;
+  border-bottom: 5px solid #fff10b;
+}
+
+.dgFash-leftCat {
+  float: left;
+  width: 280px;
+  height: 450px;
+}
+
+#heroSlider {
+  border-top: 1px solid #404040;
+  border-bottom: 1px solid #404040;
+  border-right: 1px solid #404040;
+  float: right;
+  width: 680px;
+  height: 448px;
+}
+
+#heroSlider:hover {
+  cursor: pointer;
+}
+
+#heroSlider li {
+  margin: 0 -10px 0 0;
+}
+
+#DressSlide, #boysgirlsSlide, #camoSlide, #activeSlide {
+  height: 448px;
+  left: -20px;
+ /* border: 1px solid #404040;*/
+}
+
+
+/* Hero Slider */
+#MixMatchWrap {
+  height: 578px;
+  width: 960px;
+  background: #fff;
+  border-bottom: 1px solid #eae8e9;
+}
+
+#fallapparel_video {
+  width: 470px;
+  height: 578px;
+  float: left;
+  background: url(../images/apparel/VideoSlice.jpg) no-repeat;
+}
+
+#MixMatchSlider {
+  width: 485px;
+  height: 580px;
+  background: url(../images/apparel/MixMatch_sider/MixMatch_Header.png) no-repeat 189px 0;
+  float: right;
+  position: relative;
+  );
+}
+
+#MixMatch {
+  background: transparent;
+  height: 579px;
+}
+
+
+/*  Light Box styles */
+.clickarea {
+  width: 326px;
+  height: 187px;
+  display: block;
+  position: relative;
+  z-index: 100;
+  top: 218px;
+  left: 54px;
+}
+
+#media1 {
+  display: none;
+}
+
+.modal-dialog {
+  width: 673px;
+  margin: 30px auto;
+}
+
+button.close {
+  top: -16px;
+  right: -12px;
+  position: relative;
+} 
+
+/* Shop Online Area */
+#ShopOnline {
+  width: 960px;
+  height: 400px;
+  background: url(../images/apparel/ShopOnline/Online_Header.png) no-repeat top;
+}
+
+#ShopOnline ul {
+  padding-top: 55px;
+}
+
+#ShopOnline li {
+  width: 168px;
+  display: inline-block;
+  float: left;
+  margin: 0 6px;
+}
+
+/*Lightbox*/
+div.fancybox-wrap.fancybox-mobile.fancybox-type-inline.fancybox-opened {
+	z-index: 9999 !important;
+}
